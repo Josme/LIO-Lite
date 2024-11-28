@@ -20,9 +20,9 @@ c++ == 17
 
 ## Build
 ```
-  git clone https://github.com/Liansheng-Wang/LIO-Lite.git  
-  cd LIO-Lite  
-  catkin_make  
+  git clone https://github.com/Liansheng-Wang/faster_lio_localization.git 
+  cd faster_lio_localization 
+  catkin_make -j4
 ```
 
 ## Run
@@ -59,11 +59,11 @@ c++ == 17
 rosrun lio_lite test_split
 rosrun lio_lite test_load 
 ```
-![SplitMap](https://github.com/Liansheng-Wang/LIO-Lite/blob/eskf-base/doc/split_map.png)
+![SplitMap](https://github.com/Liansheng-Wang/faster_lio_localization/blob/main/doc/split_map.png)
 
 ### 2023-11-22
 增加了在初始化阶段以重力为约束定义水平面.  
 
 ### 2023-11-23
 测试了 HesaiXT-16 雷达.
-![HesaiTX16](https://github.com/Liansheng-Wang/LIO-Lite/blob/eskf-base/doc/HesaiXT16.png)
+![HesaiTX16](https://github.com/Liansheng-Wang/faster_lio_localization/blob/main/doc/HesaiXT16.png)

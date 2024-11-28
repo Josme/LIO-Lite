@@ -22,9 +22,9 @@ The project is developed using C++17 standard.
 
 ## Build
 ```
-  git clone https://github.com/Liansheng-Wang/LIO-Lite.git  
-  cd LIO-Lite  
-  catkin_make  
+  git clone https://github.com/Liansheng-Wang/faster_lio_localization.git  
+  cd faster_lio_localization  
+  catkin_make -j4 
 ```
 
 ## Run
@@ -64,14 +64,14 @@ rosrun lio_lite test_split
 rosrun lio_lite test_load 
 ```
 
-![SplitMap](https://github.com/Liansheng-Wang/LIO-Lite/blob/eskf-base/doc/split_map.png)
+![SplitMap](https://github.com/Liansheng-Wang/faster_lio_localization/blob/main/doc/split_map.png)
 
 ### 2023-11-22
 Added the use of gravity as a constraint to define the horizontal plane during the initialization phase.
 
 ### 2023-11-23
 Test HesaiXT-16 Lidar.
-![HesaiTX16](https://github.com/Liansheng-Wang/LIO-Lite/blob/eskf-base/doc/HesaiXT16.png)
+![HesaiTX16](https://github.com/Liansheng-Wang/faster_lio_localization/blob/main/doc/HesaiXT16.png)
 
 ### 2024-01-19
 Added visual color rendering. Refer to [R3Live](https://github.com/hku-mars/r3live.git)
